@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1218xvCfPFTHeQyHmWbD1sr90D2w0mPqw
 """
 
-pip install transformers torch torchvision torchaudio pandas scikit-learn numpy tensorboard matplotlib
 
 from google.colab import drive
 drive.mount('/content/drive')
