@@ -23,6 +23,10 @@ ldap_base_dn = "dc=nodomain"  # Base DN for LDAP
 def index():
     return render_template('index.html')
 
+@app.route('/home')
+def home():
+    return render_template('home.html')
+
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
