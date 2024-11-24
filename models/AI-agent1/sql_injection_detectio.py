@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1K1Pi65tHEMrdMr7WDZqB34qD4k5fpdzU
 """
 
-!pip install imbalanced-learn xgboost
 
 from google.colab import files
 uploaded = files.upload()
